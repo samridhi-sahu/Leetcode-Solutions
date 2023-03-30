@@ -1,3 +1,5 @@
+# 175. Combine Two Tables
+
 # Write your MySQL query statement below
 
 select firstName, lastName, city, state
