@@ -1,5 +1,8 @@
 // 1502. Can Make Arithmetic Progression From Sequence
 // https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/description/
+
+import java.util.Arrays;
+
 public class AP_Q1502 {
     public boolean canMakeArithmeticProgression(int[] arr) {
         if (arr.length == 2)

@@ -1,5 +1,10 @@
 // 1630. Arithmetic Subarrays
 //https://leetcode.com/problems/arithmetic-subarrays/description/
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class APsubArrayQ1630 {
     public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
         List<Boolean> boollist = new ArrayList<Boolean>();

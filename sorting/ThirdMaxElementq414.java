@@ -1,4 +1,7 @@
 //414. Third Maximum Number
+
+import java.util.Arrays;
+
 class Solution {
     public int thirdMax(int[] nums) {
         Arrays.sort(nums);

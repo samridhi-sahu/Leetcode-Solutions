@@ -1,4 +1,7 @@
 // 217. Contains Duplicate
+
+import java.util.HashMap;
+
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         // tc nlogn
