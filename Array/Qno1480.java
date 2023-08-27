@@ -3,7 +3,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class running_sum {
+public class Qno1480 {
     public static int[] runningSum(int[] num) {
         for (int i = 0; i < num.length - 1; i++) {
             num[i + 1] = num[i] + num[i + 1];
@@ -19,7 +19,7 @@ public class running_sum {
         for (int i = 0; i < size; i++) {
             nums[i] = sc.nextInt();
         }
-        running_sum obj = new running_sum();
+        Qno1480 obj = new Qno1480();
         int[] result = obj.runningSum(nums);
 
     }
